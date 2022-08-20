@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PortfolioRemezMaxim/static/css/main.ab452158.css",
+    "main.js": "/PortfolioRemezMaxim/static/js/main.78257cb8.js",
+    "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
+    "index.html": "/PortfolioRemezMaxim/index.html",
+    "main.ab452158.css.map": "/PortfolioRemezMaxim/static/css/main.ab452158.css.map",
+    "main.78257cb8.js.map": "/PortfolioRemezMaxim/static/js/main.78257cb8.js.map",
+    "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab452158.css",
+    "static/js/main.78257cb8.js"
+  ]
+}
