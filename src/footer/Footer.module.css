@@ -1,0 +1,19 @@
+.footerBlock{
+    background-color: blueviolet;
+}
+.footerContainer{
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+.title{
+    background-color: aqua;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px;
+    border: 1px solid;
+}
