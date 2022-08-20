@@ -1,0 +1,28 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid;
+}
+.imgProject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/736x/70/6a/4a/706a4a7355c5afbc4d9a9648ac62d2ea.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.buttonProject{
+    background-color: grey;
+    border: 1px solid #252121;
+    outline: none;
+}
+.textArea{
+    background-color: orange;
+}
+.title{
+    text-align: center;
+    margin: 0 auto;
+}

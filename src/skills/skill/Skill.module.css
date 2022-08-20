@@ -1,10 +1,15 @@
 .skill{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 250px;
+    width: 270px;
+    height: 200px;
+    border: 1px solid;
     background-color: aqua;
+}
+.imgSkill{
+
 }
 .icon{
     width: 60px;
