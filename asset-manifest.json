@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioRemezMaxim/static/css/main.9eb1d703.css",
+    "main.css": "/PortfolioRemezMaxim/static/css/main.48011425.css",
     "main.js": "/PortfolioRemezMaxim/static/js/main.2ef51a0b.js",
     "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
     "static/media/myphoto.jpg": "/PortfolioRemezMaxim/static/media/myphoto.5396b2a3178f56a4da9d.jpg",
@@ -8,12 +8,12 @@
     "static/media/socialNetwork.png": "/PortfolioRemezMaxim/static/media/socialNetwork.bc277d5df870444f5555.png",
     "static/media/todolist.png": "/PortfolioRemezMaxim/static/media/todolist.2c192296e30a3e43034e.png",
     "index.html": "/PortfolioRemezMaxim/index.html",
-    "main.9eb1d703.css.map": "/PortfolioRemezMaxim/static/css/main.9eb1d703.css.map",
+    "main.48011425.css.map": "/PortfolioRemezMaxim/static/css/main.48011425.css.map",
     "main.2ef51a0b.js.map": "/PortfolioRemezMaxim/static/js/main.2ef51a0b.js.map",
     "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eb1d703.css",
+    "static/css/main.48011425.css",
     "static/js/main.2ef51a0b.js"
   ]
 }
