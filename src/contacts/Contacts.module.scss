@@ -1,0 +1,32 @@
+@import "../Common/styles/sass/variables.scss";
+.contactsBlock{
+    background-color: $bgColor1;
+    .contactsContainer{
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 300px;
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            margin-top: 15px;
+            @media screen and (max-width: 500px) {
+                    width: 100%;
+            }
+            input, textarea{
+                width: 100%;
+                margin: 5px;
+            }
+            .buttonSend{
+                margin: 30px;
+            }
+
+        }
+    }
+}
+
+
+
+
+

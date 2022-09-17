@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Footer.module.css"
+import style from "./Footer.module.scss"
 import styleContainer from "../Common/styles/Container.module.css"
 import Icon from "./icon/Icon";
 import Title from "../Common/components/title/Title";

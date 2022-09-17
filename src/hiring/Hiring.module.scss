@@ -1,0 +1,10 @@
+@import "../Common/styles/sass/variables";
+.hiringBlock{
+    background-color: $bgColor2;
+    .hiringContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 300px;
+    }
+}
+

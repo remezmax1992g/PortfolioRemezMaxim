@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Contacts.module.css"
+import style from "./Contacts.module.scss"
 import styleContainer from "../Common/styles/Container.module.css"
 import Title from "../Common/components/title/Title";
 import {Button} from "@mui/material";

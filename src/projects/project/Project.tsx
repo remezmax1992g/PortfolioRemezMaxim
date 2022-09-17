@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Project.module.css"
+import style from "./Project.module.scss"
 import {Button} from "@mui/material";
 
 type ProjectType = {

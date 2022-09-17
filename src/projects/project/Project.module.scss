@@ -1,0 +1,61 @@
+@import "../../Common/styles/sass/variables";
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    .imgProject{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        &::before{
+            position: absolute;
+            content: "";
+            background-color: $bgColor1;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+        .buttonProject{
+            border: 1px solid #252121;
+            outline: none;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .projectInfo{
+        background-color: $bgColor2;
+        text-align: center;
+        padding: 10px;
+        .projectTitle{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 1;
+            color: $textColor;
+        }
+        .description{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            color: $textColor;
+        }
+    }
+}
+
+
+
+
+
+
+

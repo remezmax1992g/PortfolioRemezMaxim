@@ -1,0 +1,16 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  .imgSkill {
+    .icon {
+      width: 60px;
+      height: 60px;
+      background-color: antiquewhite;
+    }
+  }
+}
+

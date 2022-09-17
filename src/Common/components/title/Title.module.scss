@@ -1,0 +1,27 @@
+@import "../../styles/sass/variables";
+.title{
+    text-align: center;
+    h2{
+        margin-bottom: 20px;
+        color: $textColor;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 70px;
+            bottom: -15px;
+            background-color: $primaryColor;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }
+
+
+}
