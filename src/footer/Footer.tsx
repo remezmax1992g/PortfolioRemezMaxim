@@ -1,13 +1,14 @@
 import React from 'react';
 import style from "./Footer.module.css"
-import styleContainer from "../Common/Styles/Container.module.css"
+import styleContainer from "../Common/styles/Container.module.css"
 import Icon from "./icon/Icon";
+import Title from "../Common/components/title/Title";
 
 const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} + ${style.footerContainer}`}>
-                <h2 className={style.title}>REMEZ MAXIM</h2>
+                <Title titleName="REMEZ MAXIM"/>
                 <div className={style.icons}>
                     <Icon urlIcon={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"}/>
                     <Icon urlIcon={"https://cdn-icons-png.flaticon.com/512/174/174857.png"}/>

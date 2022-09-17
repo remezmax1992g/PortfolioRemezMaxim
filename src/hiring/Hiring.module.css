@@ -1,19 +1,8 @@
 .hiringBlock{
-    background-color: cadetblue;
+    background-color: #212529;
 }
 .hiringContainer{
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 80px;
-}
-.title{
-    background-color: aqua;
-    margin: 0 auto;
-}
-.buttonHiring{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: grey;
-
+    justify-content: space-around;
+    min-height: 300px;
 }

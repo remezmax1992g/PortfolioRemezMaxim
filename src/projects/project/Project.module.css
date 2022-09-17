@@ -1,28 +1,56 @@
 .project{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    border: 1px solid;
+    width: 300px;
+    padding: 20px;
 }
 .imgProject{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 200px;
+    align-items: flex-end;
+    position: relative;
+    height: 300px;
     width: 100%;
-    background-image: url("https://i.pinimg.com/736x/70/6a/4a/706a4a7355c5afbc4d9a9648ac62d2ea.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
+.imgProject::before{
+    position: absolute;
+    content: "";
+    background-color: #1f1f20;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
 .buttonProject{
     background-color: grey;
     border: 1px solid #252121;
     outline: none;
+    position: relative;
+    z-index: 1;
 }
-.textArea{
-    background-color: orange;
-}
-.title{
+.projectInfo{
+    background-color: #212529;
     text-align: center;
-    margin: 0 auto;
+    padding: 10px;
+}
+
+.projectTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: #fff;
+}
+.description{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: #fff;
 }

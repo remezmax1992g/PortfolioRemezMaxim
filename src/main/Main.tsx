@@ -1,6 +1,7 @@
 import React from 'react';
 import style from "./Main.module.css"
-import styleContainer from "../Common/Styles/Container.module.css"
+import styleContainer from "../Common/styles/Container.module.css"
+import photo from "../Common/assets/images/myphoto.jpg"
 
 const Main = () => {
     return (
@@ -11,7 +12,9 @@ const Main = () => {
                     <h1>I'm Maxim Remez</h1>
                     <p>Frontend developer React</p>
                 </div>
-                <div className={style.mainPhoto}></div>
+                <div className={style.mainPhoto}>
+                    <img className={style.myPhoto} src={photo} alt="no photo"/>
+                </div>
             </div>
         </div>
     );

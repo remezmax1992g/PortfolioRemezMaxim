@@ -1,21 +1,19 @@
 .projectsBlock {
-    background-color: orangered;
+    background-color: #1f1f20;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: start;
 }
-.title{
-    background-color: aqua;
-    margin: 0 auto;
-}
+
 .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     width: 100%;
-    border: 1px solid;
     min-height: 300px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }

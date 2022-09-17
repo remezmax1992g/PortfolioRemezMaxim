@@ -1,6 +1,6 @@
 .mainBlock{
     height: 100vh;
-    background-color: #1bd354;
+    background-color: #1f1f20;
 }
 .text{
     width: 300px;
@@ -10,5 +10,9 @@
     height: 400px;
     width: 300px;
     background-color: aqua;
+}
+.myPhoto{
+    height: 100%;
+    width: 100%;
 }
 

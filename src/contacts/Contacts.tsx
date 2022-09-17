@@ -1,18 +1,23 @@
 import React from 'react';
 import style from "./Contacts.module.css"
-import styleContainer from "../Common/Styles/Container.module.css"
+import styleContainer from "../Common/styles/Container.module.css"
+import Title from "../Common/components/title/Title";
+import {Button} from "@mui/material";
+import SendIcon from '@mui/icons-material/Send';
 
 const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} + ${style.contactsContainer}`}>
-                <h2 className={style.title}>Contacts</h2>
+                <Title titleName="Contacts"/>
                 <form className={style.form}>
-                    <input/>
-                    <input/>
+                    <input type="text"/>
+                    <input type="text"/>
                     <textarea/>
                 </form>
-                <button className={style.buttonSend}>Send</button>
+                <Button className={style.buttonSend} variant="contained" endIcon={<SendIcon/>} color="success">
+                    Send
+                </Button>
             </div>
         </div>
     );

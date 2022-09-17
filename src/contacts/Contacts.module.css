@@ -1,23 +1,28 @@
 .contactsBlock{
-    background-color: hotpink;
+    background-color: #1f1f20;
 }
 .contactsContainer{
     flex-direction: column;
     justify-content: space-between;
-    min-height: 200px;
+    min-height: 300px;
 }
-.title{
-    background-color: aqua;
-    margin: 0 auto;
-}
+
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 15px;
+}
+.form input, .form textarea{
+    width: 100%;
+    margin: 5px;
 }
 .buttonSend{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: grey;
-
+    margin: 30px;
+}
+@media screen and (max-width: 500px) {
+    .form{
+        width: 100%;
+    }
 }

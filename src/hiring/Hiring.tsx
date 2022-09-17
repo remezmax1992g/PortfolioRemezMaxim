@@ -1,13 +1,15 @@
 import React from 'react';
 import style from "./Hiring.module.css"
-import styleContainer from"../Common/Styles/Container.module.css"
+import styleContainer from "../Common/styles/Container.module.css"
+import Title from "../Common/components/title/Title";
+import {Button} from "@mui/material";
 
 const Hiring = () => {
     return (
         <div className={style.hiringBlock}>
             <div className={`${styleContainer.container} + ${style.hiringContainer}`}>
-                <h2 className={style.title}>Considering remote work options</h2>
-                <button className={style.buttonHiring}>Hire me</button>
+                <Title titleName="Considering remote work options"/>
+                <Button variant="contained" color="success">Hire me</Button>
             </div>
 
         </div>
