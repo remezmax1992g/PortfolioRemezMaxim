@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioRemezMaxim/static/css/main.3c7de19b.css",
-    "main.js": "/PortfolioRemezMaxim/static/js/main.a5411620.js",
+    "main.css": "/PortfolioRemezMaxim/static/css/main.38db8343.css",
+    "main.js": "/PortfolioRemezMaxim/static/js/main.a04a21b1.js",
     "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
     "static/media/myphoto.jpg": "/PortfolioRemezMaxim/static/media/myphoto.5396b2a3178f56a4da9d.jpg",
     "static/media/redux.png": "/PortfolioRemezMaxim/static/media/redux.6e66cd4ff6a497e88bde.png",
@@ -15,12 +15,12 @@
     "static/media/unit-test.png": "/PortfolioRemezMaxim/static/media/unit-test.3d408363af338d4ea63e.png",
     "static/media/js.png": "/PortfolioRemezMaxim/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/PortfolioRemezMaxim/index.html",
-    "main.3c7de19b.css.map": "/PortfolioRemezMaxim/static/css/main.3c7de19b.css.map",
-    "main.a5411620.js.map": "/PortfolioRemezMaxim/static/js/main.a5411620.js.map",
+    "main.38db8343.css.map": "/PortfolioRemezMaxim/static/css/main.38db8343.css.map",
+    "main.a04a21b1.js.map": "/PortfolioRemezMaxim/static/js/main.a04a21b1.js.map",
     "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c7de19b.css",
-    "static/js/main.a5411620.js"
+    "static/css/main.38db8343.css",
+    "static/js/main.a04a21b1.js"
   ]
 }
