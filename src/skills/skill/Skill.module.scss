@@ -1,3 +1,6 @@
+@import "../../Common/styles/sass/mixins";
+@import "../../Common/styles/sass/variables";
+
 .skill {
   display: flex;
   flex-direction: column;
@@ -5,12 +8,83 @@
   align-items: center;
   width: 200px;
   height: 200px;
+
   .imgSkill {
     .icon {
-      width: 60px;
-      height: 60px;
-      background-color: antiquewhite;
+      width: 80px;
+      height: 80px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
     }
   }
+
+  .skillInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+    .circle {
+      margin: 10px;
+      width: 60px;
+      height: 60px;
+
+      .outer {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.15),
+        -4px -4px 8px -1px rgba(0, 0, 0, 0.7);
+
+        .inner {
+          display: flex;
+          position: relative;
+          left: 11%;
+          top: 11%;
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          box-shadow: inset 2px 2px 6px -1px rgba(255, 255, 255, 0.2),
+          inset 2px 2px 6px -1px rgba(0, 0, 0, 0.7),
+          -0.5px -0.5px 0px rgba(0, 0, 0, 1),
+          0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+          0px 10px 8px -8px rgba(0, 0, 0, 0.05);
+
+          .number {
+            @include text($textFont, 300, 15px, 1px, 1);
+          }
+        }
+      }
+    }
+
+    svg {
+      position: relative;
+      bottom: 110%;
+      right: 10%;
+
+      circle {
+        fill: none;
+        stroke: green;
+        stroke-width: 10px;
+        stroke-dasharray: 185;
+        stroke-dashoffset: 185;
+        animation: anim 2s linear forwards;
+        //@keyframes anim {
+        //  100% {
+        //    stroke-dashoffset: 13.5;
+        //  }
+      }
+    }
+  }
+
+  h3 {
+    margin: 20px;
+    @include text($titleFont, 400, 20px, 1px, 1.3);
+  }
+
 }
+
 
