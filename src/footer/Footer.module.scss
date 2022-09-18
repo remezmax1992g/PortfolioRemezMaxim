@@ -1,19 +1,28 @@
 @import "../Common/styles/sass/variables";
-.footerBlock{
-    background-color: $bgColor2;
-    .footerContainer{
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 300px;
-        .icons{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 250px;
-            height: 50px;
-            margin-top: 15px;
-        }
+@import "../Common/styles/sass/mixins";
+
+.footerBlock {
+  background-color: $bgColor2;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 250px;
+      height: 50px;
+      margin-top: 15px;
     }
+
+    .footerText {
+      margin: 30px;
+      @include text($textFont, 300, 15px, 1px, 1);
+    }
+  }
 }
 
 

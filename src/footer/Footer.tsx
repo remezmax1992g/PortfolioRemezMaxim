@@ -15,7 +15,7 @@ const Footer = () => {
                     <Icon urlIcon={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/640px-Facebook_icon_2013.svg.png"}/>
                     <Icon urlIcon={"https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360"}/>
                 </div>
-                <div>© 2022 All rights are reserved</div>
+                <div className={style.footerText}>© 2022 All rights are reserved</div>
             </div>
         </div>
     );
