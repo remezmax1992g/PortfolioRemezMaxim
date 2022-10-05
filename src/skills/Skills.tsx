@@ -6,6 +6,7 @@ import Title from "../Common/components/title/Title";
 import htmlImg from "../Common/assets/images/html.png"
 import cssImg from "../Common/assets/images/css.png"
 import jsImg from "../Common/assets/images/js.png"
+import tsImg from "../Common/assets/images/ts.png"
 import reactImg from "../Common/assets/images/react.png"
 import reduxImg from "../Common/assets/images/redux.png"
 import storybookImg from "../Common/assets/images/storybook.png"
@@ -13,6 +14,9 @@ import materialMuiImg from "../Common/assets/images/MaterialMui.png"
 import restApiImg from "../Common/assets/images/rest-api.png"
 import gitImg from "../Common/assets/images/git.png"
 import unitTestImg from "../Common/assets/images/unit-test.png"
+import englishImg from "../Common/assets/images/english.png"
+import postmanImg from "../Common/assets/images/postman.png"
+
 
 const Skills = () => {
     const htmlURL = {
@@ -23,6 +27,9 @@ const Skills = () => {
     }
     const jsURL = {
         backgroundImage: `url(${jsImg})`
+    }
+    const tsURL = {
+        backgroundImage: `url(${tsImg})`
     }
     const reactURL = {
         backgroundImage: `url(${reactImg})`
@@ -45,21 +52,30 @@ const Skills = () => {
     const unitTestURL = {
         backgroundImage: `url(${unitTestImg})`
     }
+    const postmanURL = {
+        backgroundImage: `url(${postmanImg})`
+    }
+    const englishURL = {
+        backgroundImage: `url(${englishImg})`
+    }
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} + ${style.skillsContainer}`}>
                 <Title titleName="My skills"/>
                 <div className={style.skills}>
-                    <Skill style={htmlURL} title="HTML" percentage={70}/>
-                    <Skill style={cssURL} title="CSS/SASS" percentage={70}/>
-                    <Skill style={jsURL} title="JS/TS" percentage={75}/>
-                    <Skill style={reactURL} title="React" percentage={85}/>
-                    <Skill style={reduxURL} title="Redux" percentage={80}/>
-                    <Skill style={storybookURL} title="Storybook" percentage={50}/>
-                    <Skill style={materialMuiURL} title="Material MUI" percentage={60}/>
-                    <Skill style={restApiURL} title="Rest-API" percentage={55}/>
-                    <Skill style={gitURL} title="Git" percentage={50}/>
-                    <Skill style={unitTestURL} title="Unit test" percentage={75}/>
+                    <Skill style={htmlURL} title="HTML" rating={4}/>
+                    <Skill style={cssURL} title="CSS/SASS" rating={3.5}/>
+                    <Skill style={jsURL} title="JS" rating={4}/>
+                    <Skill style={tsURL} title="TS" rating={4}/>
+                    <Skill style={reactURL} title="React" rating={4.5}/>
+                    <Skill style={reduxURL} title="Redux" rating={4.5}/>
+                    <Skill style={storybookURL} title="Storybook" rating={3}/>
+                    <Skill style={materialMuiURL} title="Material MUI" rating={4}/>
+                    <Skill style={restApiURL} title="Rest-API" rating={4.5}/>
+                    <Skill style={gitURL} title="Git" rating={3.5}/>
+                    <Skill style={unitTestURL} title="Unit test" rating={4.5}/>
+                    <Skill style={postmanURL} title="Postman" rating={4}/>
+                    <Skill style={englishURL} title="English B2" rating={5}/>
                 </div>
             </div>
         </div>

@@ -5,28 +5,41 @@
   height: 100vh;
   background-color: #1f1f20;
 
-  .textArea {
-    width: 350px;
-    background-color: $bgColor2;
+  .textAreaBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 210px;
+    .textArea {
+      width: 350px;
+      background-color: $bgColor2;
+      min-height: 150px;
 
-    .blockTextArea {
-      margin: 10px;
-      .greetingText {
-        @include text($titleFont, 300, 15px, 1px, 1.3)
+      .greetingTextBlock {
+        margin: 10px;
+
+        .greetingText {
+          @include text($titleFont, 300, 15px, 1px, 1.3)
+        }
       }
-    }
-    .nameTextBlock{
-      margin-top: 50px;
-      margin-left: 10px;
-      margin-bottom: 50px;
-      .nameText{
-        @include text($titleFont, 600, 30px, 1px, 1.3)
+
+      .nameTextBlock {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+
+        .nameText {
+          @include text($titleFont, 600, 30px, 1px, 1.3)
+        }
       }
-    }
-    .professionTextBlock{
-      margin: 10px;
-      .professionText{
-        @include text($titleFont, 400, 20px, 1px, 1.3)
+
+      .professionTextBlock {
+        margin: 10px;
+
+        .professionText {
+          @include text($titleFont, 400, 20px, 1px, 1.3)
+        }
       }
     }
   }

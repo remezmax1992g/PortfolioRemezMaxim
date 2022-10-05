@@ -8,13 +8,14 @@ type ProjectType = {
     style:{
         backgroundImage: string
     }
+    url: string
 }
 
 const Project = (props: ProjectType) => {
     return (
         <div className={style.project}>
             <div className={style.imgProject} style={props.style}>
-                <Button className={style.buttonProject} variant="contained" color="success">View more</Button>
+                <a href={props.url}><Button className={style.buttonProject} variant="contained" color="success">View more</Button></a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>

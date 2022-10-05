@@ -3,12 +3,13 @@ import style from "./Icon.module.css"
 
 type IconType = {
     urlIcon: string
+    link?: string
 }
 
 const Icon = (props: IconType) => {
     return (
         <div className={style.iconBlock}>
-            <img className={style.icon} src={props.urlIcon} alt="icon"/>
+            <a href={props.link}><img className={style.icon} src={props.urlIcon} alt="icon"/></a>
         </div>
     );
 };

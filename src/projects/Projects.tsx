@@ -22,12 +22,21 @@ const Projects = () => {
             <div className={`${styleContainer.container} + ${style.projectsContainer}`}>
                 <Title titleName="My projects"/>
                 <div className={style.projects}>
-                    <Project style={socialNetwork} title="Social network" description="Short description of social network"/>
-                    <Project style={todolist} title="Todolist" description="Short description of todolist"/>
-                    <Project style={counter} title="Counter" description="Short description of counter"/>
+                    <Project style={socialNetwork}
+                             title="Social network"
+                             description="Short description of social network"
+                             url="https://remezmax1992g.github.io/samurai-way-main"/>
+                    <Project style={todolist}
+                             title="Todolist"
+                             description="Short description of todolist"
+                             url="https://remezmax1992g.github.io/my-app-todolist"/>
+                    <Project style={counter}
+                             title="Counter"
+                             description="Short description of counter"
+                             url="https://remezmax1992g.github.io/exam-1thModule-Counter"/>
                 </div>
             </div>
-            
+
         </div>
     );
 };

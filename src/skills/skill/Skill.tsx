@@ -1,40 +1,41 @@
 import style from "./Skill.module.scss"
+import {Rating} from "@mui/material";
 
 type SkillType = {
     title: string
-    percentage: number
+    rating: number
     style:{
         backgroundImage: string
     }
 }
 
 const Skill = (props: SkillType) => {
+    const labels: { [index: string]: string } = {
+        0.5: 'Useless',
+        1: 'Useless+',
+        1.5: 'Poor',
+        2: 'Poor+',
+        2.5: 'Ok',
+        3: 'Ok+',
+        3.5: 'Good',
+        4: 'Good+',
+        4.5: 'Excellent',
+        5: 'Excellent+',
+    };
 
+    function getLabelText(value: number) {
+        return `${value} Star${value !== 1 ? 's' : ''}, ${labels[value]}`;
+    }
     return (
         <div className={style.skill}>
             <div className={style.imgSkill}>
                 <div className={style.icon} style={props.style}></div>
             </div>
             <div className={style.skillInfo}>
-                <div className={style.circle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                            <div id="number" className={style.number}>{props.percentage + "%"}</div>
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                            <linearGradient id="GradientColor">
-                                <stop offset="0%" stop-color="#e91e63" />
-                                <stop offset="100%" stop-color="#673ab7" />
-                            </linearGradient>
-                        </defs>
-                        <circle cx="35" cy="35" r="30" stroke-linecap="round" style={{strokeDashoffset: (185 - 185*props.percentage/100) }}/>
-                    </svg>
-                </div>
-
                 <h3 className={style.title}>{props.title}</h3>
-
+                <div className={style.rating}>
+                    <Rating name="read-only" value={props.rating} precision={0.5} getLabelText={getLabelText} size="large" readOnly/>
+                </div>
             </div>
         </div>
     );
