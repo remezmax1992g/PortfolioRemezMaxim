@@ -7,3 +7,19 @@
   letter-spacing: $letterSpacing;
   color: $textColor;
 }
+@mixin container(){
+  width: 80%;
+  margin: 0 auto;
+}
+@mixin flex($direction, $justifyContent, $alignContent, $wrap){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignContent;
+  flex-wrap: $wrap;
+}
+@mixin bySettings(){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
