@@ -15,17 +15,15 @@ const Main = () => {
                             <p className={style.professionText}>Frontend developer React</p>
                         </div>
                         <div className={style.buttons}>
-                            <Button variant="contained" style={{width: "160px", borderRadius: "20px"}}>MORE ABOUT
-                                ME</Button>
-                            <Button variant="contained" component="label"
-                                    style={{width: "160px", borderRadius: "20px"}}>
+                            <Button className={style.button} variant="contained">MORE ABOUT ME</Button>
+                            <Button className={style.button} variant="contained" component="label">
                                 upload CV
                                 <input hidden accept="image/*" multiple type="file"/>
                             </Button>
                         </div>
                     </div>
                     <div className={style.mainPhoto}>
-                        <img className={style.myPhoto} src={photo} alt="no photo"/>
+                        <img className={style.myPhoto} src={photo}/>
                     </div>
                 </div>
             </div>
