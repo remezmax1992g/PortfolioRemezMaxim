@@ -3,7 +3,10 @@ import style from "./Main.module.scss"
 import photo from "../Common/assets/images/myphoto.jpg"
 import {Button} from "@mui/material";
 
+
+
 const Main = () => {
+
     return (
         <div className={style.mainBlock}>
             <div className={style.container}>

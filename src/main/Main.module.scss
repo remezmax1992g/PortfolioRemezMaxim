@@ -4,10 +4,14 @@
 .mainBlock {
   background-color: #1f1f20;
   padding: 100px 0;
+  .particles {
+    opacity: 0.5;
+  }
   .container {
     @include container();
     @include flex(column, center, center, nowrap);
     .personalInformation {
+      z-index: 1;
       width: 100%;
       @include flex(row, space-between, center, wrap);
       @media screen and (max-width: 920px) {
@@ -49,8 +53,8 @@
 
         .myPhoto {
           width: 80%;
-          opacity: 0.6;
           border-radius: 50%;
+          filter: brightness(70%);
         }
       }
     }

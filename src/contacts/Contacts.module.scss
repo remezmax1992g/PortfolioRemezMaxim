@@ -13,6 +13,7 @@
       padding: 20px 0;
     }
     .form {
+      position: relative;
       @include flex(column, center, center, nowrap);
       width: 40%;
       margin-top: 15px;
