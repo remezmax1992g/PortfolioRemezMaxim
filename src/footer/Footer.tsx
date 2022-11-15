@@ -8,6 +8,8 @@ import telegramImg from "../Common/assets/images/telegram.png"
 import whatsappImg from "../Common/assets/images/whatsapp.png"
 import viberImg from "../Common/assets/images/viber.png"
 import githubImg from "../Common/assets/images/github.png"
+import skypeImg from "../Common/assets/images/skype.png"
+import discordImg from "../Common/assets/images/discord.svg"
 
 
 const Footer = () => {
@@ -22,6 +24,8 @@ const Footer = () => {
                     <Icon urlIcon={whatsappImg} link="https://wa.me/+375447907412"/>
                     <Icon urlIcon={viberImg} link="viber://chat?number=%2B375447907412"/>
                     <Icon urlIcon={githubImg} link="https://github.com/remezmax1992g"/>
+                    <Icon urlIcon={skypeImg} link="Skype:remezmaxim1992g?chat"/>
+                    <Icon urlIcon={discordImg} link="https://discordapp.com/users/remezmax1992g#1131/"/>
                 </div>
                 <div className={style.footerText}>© 2022 All rights are reserved</div>
             </div>
