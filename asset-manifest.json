@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/PortfolioRemezMaxim/static/css/main.b0e4661c.css",
-    "main.js": "/PortfolioRemezMaxim/static/js/main.999bf55d.js",
+    "main.css": "/PortfolioRemezMaxim/static/css/main.31f2f2fc.css",
+    "main.js": "/PortfolioRemezMaxim/static/js/main.127ffbae.js",
     "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
-    "static/media/myphoto.jpg": "/PortfolioRemezMaxim/static/media/myphoto.e6cca8bbcbb7de5296be.jpg",
     "static/media/redux.png": "/PortfolioRemezMaxim/static/media/redux.6e66cd4ff6a497e88bde.png",
     "static/media/instagram.png": "/PortfolioRemezMaxim/static/media/instagram.d93983670e0a3ddee22d.png",
+    "static/media/myphoto.jpg": "/PortfolioRemezMaxim/static/media/myphoto.2d463bdda5eb9c434503.jpg",
     "static/media/rest-api.png": "/PortfolioRemezMaxim/static/media/rest-api.2e37e6b6189f443401e8.png",
     "static/media/MaterialMui.png": "/PortfolioRemezMaxim/static/media/MaterialMui.9abc31b2dd4501676bf4.png",
     "static/media/whatsapp.png": "/PortfolioRemezMaxim/static/media/whatsapp.c1cb34a63d9f1f9ffc53.png",
@@ -18,12 +18,12 @@
     "static/media/unit-test.png": "/PortfolioRemezMaxim/static/media/unit-test.3d408363af338d4ea63e.png",
     "static/media/js.png": "/PortfolioRemezMaxim/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/PortfolioRemezMaxim/index.html",
-    "main.b0e4661c.css.map": "/PortfolioRemezMaxim/static/css/main.b0e4661c.css.map",
-    "main.999bf55d.js.map": "/PortfolioRemezMaxim/static/js/main.999bf55d.js.map",
+    "main.31f2f2fc.css.map": "/PortfolioRemezMaxim/static/css/main.31f2f2fc.css.map",
+    "main.127ffbae.js.map": "/PortfolioRemezMaxim/static/js/main.127ffbae.js.map",
     "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e4661c.css",
-    "static/js/main.999bf55d.js"
+    "static/css/main.31f2f2fc.css",
+    "static/js/main.127ffbae.js"
   ]
 }
