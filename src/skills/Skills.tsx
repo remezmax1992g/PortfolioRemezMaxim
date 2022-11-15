@@ -15,6 +15,7 @@ import gitImg from "../Common/assets/images/git.png"
 import unitTestImg from "../Common/assets/images/unit-test.png"
 import englishImg from "../Common/assets/images/english.png"
 import postmanImg from "../Common/assets/images/postman.png"
+import  {Zoom} from "react-awesome-reveal";
 
 
 const Skills = () => {
@@ -61,21 +62,23 @@ const Skills = () => {
         <div className={style.skillsBlock}>
             <div className={style.container}>
                 <Title titleName="My skills"/>
-                <div className={style.skills}>
-                    <Skill style={htmlURL} title="HTML" rating={4}/>
-                    <Skill style={cssURL} title="CSS/SASS" rating={3.5}/>
-                    <Skill style={jsURL} title="JS" rating={4}/>
-                    <Skill style={tsURL} title="TS" rating={4}/>
-                    <Skill style={reactURL} title="React" rating={4.5}/>
-                    <Skill style={reduxURL} title="Redux" rating={4.5}/>
-                    <Skill style={storybookURL} title="Storybook" rating={3}/>
-                    <Skill style={materialMuiURL} title="Material MUI" rating={4}/>
-                    <Skill style={restApiURL} title="Rest-API" rating={4.5}/>
-                    <Skill style={gitURL} title="Git" rating={3.5}/>
-                    <Skill style={unitTestURL} title="Unit test" rating={4.5}/>
-                    <Skill style={postmanURL} title="Postman" rating={4}/>
-                    <Skill style={englishURL} title="English B2" rating={5}/>
-                </div>
+                    <div className={style.skills}>
+                        <Zoom>
+                            <Skill style={htmlURL} title="HTML" rating={4}/>
+                            <Skill style={cssURL} title="CSS/SASS" rating={3.5}/>
+                            <Skill style={jsURL} title="JS" rating={4}/>
+                            <Skill style={tsURL} title="TS" rating={4}/>
+                            <Skill style={reactURL} title="React" rating={4.5}/>
+                            <Skill style={reduxURL} title="Redux" rating={4.5}/>
+                            <Skill style={storybookURL} title="Storybook" rating={3}/>
+                            <Skill style={materialMuiURL} title="Material MUI" rating={4}/>
+                            <Skill style={restApiURL} title="Rest-API" rating={4.5}/>
+                            <Skill style={gitURL} title="Git" rating={3.5}/>
+                            <Skill style={unitTestURL} title="Unit test" rating={4.5}/>
+                            <Skill style={postmanURL} title="Postman" rating={4}/>
+                            <Skill style={englishURL} title="English B2" rating={5}/>
+                        </Zoom>
+                    </div>
             </div>
         </div>
     );

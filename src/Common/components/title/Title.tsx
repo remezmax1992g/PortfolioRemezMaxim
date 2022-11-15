@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Title.module.scss'
+import {Fade} from "react-awesome-reveal";
 
 type TitleType = {
     titleName: string
@@ -8,7 +9,9 @@ type TitleType = {
 const Title = ({titleName}: TitleType) => {
     return (
         <div className ={style.title}>
-            <h2>{titleName}</h2>
+            <Fade direction="top-right">
+                <h2>{titleName}</h2>
+            </Fade>
         </div>
     );
 };
