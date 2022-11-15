@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/PortfolioRemezMaxim/static/css/main.d7ca3927.css",
-    "main.js": "/PortfolioRemezMaxim/static/js/main.29faa533.js",
+    "main.css": "/PortfolioRemezMaxim/static/css/main.fa5c7898.css",
+    "main.js": "/PortfolioRemezMaxim/static/js/main.c8378854.js",
     "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
+    "static/media/cv.jpg": "/PortfolioRemezMaxim/static/media/cv.7e496fc5bf4a965eec55.jpg",
     "static/media/redux.png": "/PortfolioRemezMaxim/static/media/redux.6e66cd4ff6a497e88bde.png",
     "static/media/instagram.png": "/PortfolioRemezMaxim/static/media/instagram.d93983670e0a3ddee22d.png",
     "static/media/myphoto.jpg": "/PortfolioRemezMaxim/static/media/myphoto.2d463bdda5eb9c434503.jpg",
@@ -15,17 +16,18 @@
     "static/media/counter.png": "/PortfolioRemezMaxim/static/media/counter.4941c3c4920fd88d9c2d.png",
     "static/media/socialNetwork.png": "/PortfolioRemezMaxim/static/media/socialNetwork.bc277d5df870444f5555.png",
     "static/media/todolist.png": "/PortfolioRemezMaxim/static/media/todolist.2c192296e30a3e43034e.png",
+    "static/media/education.jpg": "/PortfolioRemezMaxim/static/media/education.51c83d4f1c4934447063.jpg",
     "static/media/skype.png": "/PortfolioRemezMaxim/static/media/skype.5886e19adada8a0de063.png",
     "static/media/unit-test.png": "/PortfolioRemezMaxim/static/media/unit-test.3d408363af338d4ea63e.png",
     "static/media/js.png": "/PortfolioRemezMaxim/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/discord.svg": "/PortfolioRemezMaxim/static/media/discord.61d53db1792b72466025725963a88fbb.svg",
     "index.html": "/PortfolioRemezMaxim/index.html",
-    "main.d7ca3927.css.map": "/PortfolioRemezMaxim/static/css/main.d7ca3927.css.map",
-    "main.29faa533.js.map": "/PortfolioRemezMaxim/static/js/main.29faa533.js.map",
+    "main.fa5c7898.css.map": "/PortfolioRemezMaxim/static/css/main.fa5c7898.css.map",
+    "main.c8378854.js.map": "/PortfolioRemezMaxim/static/js/main.c8378854.js.map",
     "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ca3927.css",
-    "static/js/main.29faa533.js"
+    "static/css/main.fa5c7898.css",
+    "static/js/main.c8378854.js"
   ]
 }
