@@ -17,7 +17,7 @@ const Main = () => {
                         <div className={style.buttons}>
                             <Button className={style.button} variant="contained">MORE ABOUT ME</Button>
                             <Button className={style.button} variant="contained" component="label">
-                                upload CV
+                                download CV
                                 <input hidden accept="image/*" multiple type="file"/>
                             </Button>
                         </div>

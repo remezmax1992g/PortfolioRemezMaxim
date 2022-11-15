@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./Footer.module.scss"
-import styleContainer from "../Common/styles/Container.module.css"
 import Icon from "./icon/Icon";
 import Title from "../Common/components/title/Title";
 import instagramImg from "../Common/assets/images/instagram.png"
@@ -14,7 +13,7 @@ import githubImg from "../Common/assets/images/github.png"
 const Footer = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} + ${style.footerContainer}`}>
+            <div className={style.container}>
                 <Title titleName="REMEZ MAXIM"/>
                 <div className={style.icons}>
                     <Icon urlIcon={instagramImg} link="https://www.instagram.com/remezmaxim1992g/"/>
