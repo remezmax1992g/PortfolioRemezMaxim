@@ -42,13 +42,16 @@
         @media screen and (max-width: 450px) {
           @include flex(row, center, center, wrap);
         }
-
         .button {
           cursor: pointer;
           width: 160px;
           border-radius: 25px;
           @media screen and (max-width: 450px) {
             margin: 10px 0;
+          }
+          a{
+            text-decoration: none;
+            color: white;
           }
         }
       }
