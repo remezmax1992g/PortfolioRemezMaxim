@@ -5,6 +5,7 @@
   background-color: $bgColor1;
   padding: 30px 0;
   .container {
+    @include container();
     @include flex(column, space-between, center, wrap);
     min-height: 300px;
     .extraText{

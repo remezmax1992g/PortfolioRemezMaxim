@@ -1,10 +1,17 @@
 @import "../Common/styles/sass/variables";
+@import "../Common/styles/sass/mixins.scss";
 .hiringBlock{
     background-color: $bgColor2;
-    .hiringContainer{
-        flex-direction: column;
-        justify-content: space-around;
+    padding: 30px 0;
+    .container{
+        @include container();
+        @include flex(column, space-around, center, wrap);
         min-height: 300px;
+        .button{
+            cursor: pointer;
+            width: 160px;
+            border-radius: 25px;
+        }
     }
 }
 
