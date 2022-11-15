@@ -1,9 +1,9 @@
 @import "../Common/styles/sass/variables";
 @import "../Common/styles/sass/mixins";
 .nav{
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
+    padding: 0 20px;
+    @include flex(row, space-between, center, nowrap);
+    width: 400px;
     .linkText{
         @include text($textFont, 400, 20px, 2px, 1.5);
     }

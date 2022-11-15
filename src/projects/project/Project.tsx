@@ -15,7 +15,7 @@ const Project = (props: ProjectType) => {
     return (
         <div className={style.project}>
             <div className={style.imgProject} style={props.style}>
-                <a href={props.url}><Button className={style.buttonProject} variant="contained" color="success">View more</Button></a>
+                <a href={props.url}><Button className={style.buttonProject} variant="contained">View more</Button></a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>

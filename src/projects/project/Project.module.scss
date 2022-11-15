@@ -1,14 +1,11 @@
 @import "../../Common/styles/sass/variables";
 @import "../../Common/styles/sass/mixins";
 .project{
-    display: flex;
-    flex-direction: column;
+    @include flex(column, center, center, nowrap);
     width: 280px;
     padding: 20px;
     .imgProject{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        @include flex(row, center, flex-end, nowrap);
         position: relative;
         height: 280px;
         width: 100%;
@@ -23,13 +20,21 @@
             bottom: 0;
             left: 0;
             right: 0;
-            opacity: 0.4;
+            opacity: 0.5;
         }
         .buttonProject{
             border: 1px solid #252121;
             outline: none;
             position: relative;
             z-index: 1;
+            cursor: pointer;
+            width: 120px;
+            border-radius: 25px;
+            opacity: 0.4;
+            bottom: 120px
+        }
+        .buttonProject:hover{
+            opacity: 0.8;
         }
     }
     .projectInfo{
