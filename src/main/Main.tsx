@@ -4,12 +4,13 @@ import photo from "../Common/assets/images/myphoto.jpg"
 import {Button} from "@mui/material";
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
+import Tilt from 'react-parallax-tilt'
 
 
 const Main = () => {
 
     return (
-        <div className={style.mainBlock}>
+        <div id="main" className={style.mainBlock}>
             <div className={style.container}>
                 <div className={style.textAreaBlock}>
                     <Fade direction="left">
@@ -28,7 +29,11 @@ const Main = () => {
                     </Fade>
                 </div>
                 <div className={style.mainPhoto}>
-                    <Fade direction="right"><img className={style.myPhoto} src={photo}/></Fade>
+                    <Fade direction="right">
+                        <Tilt>
+                            <img className={style.myPhoto} src={photo}/>
+                        </Tilt>
+                    </Fade>
                 </div>
             </div>
         </div>

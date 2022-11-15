@@ -18,7 +18,7 @@ const Projects = () => {
         backgroundImage: `url(${counterImg})`
     }
     return (
-        <div className={style.projectsBlock}>
+        <div id="projects" className={style.projectsBlock}>
             <div className={style.container}>
                 <Title titleName="My projects"/>
                 <div className={style.projects}>

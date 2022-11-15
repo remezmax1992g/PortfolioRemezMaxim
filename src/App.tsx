@@ -23,6 +23,7 @@ function App() {
     }, []);
     return (
         <div className="App">
+            <Header/>
             <Particles className={style.particles}
                        init={particlesInit}
                        loaded={particlesLoaded}
@@ -94,7 +95,6 @@ function App() {
                            detectRetina: true,
                        }}
             />
-            <Header/>
             <Main/>
             <Skills/>
             <Projects/>

@@ -59,7 +59,7 @@ const Skills = () => {
         backgroundImage: `url(${englishImg})`
     }
     return (
-        <div className={style.skillsBlock}>
+        <div id="skills" className={style.skillsBlock}>
             <div className={style.container}>
                 <Title titleName="My skills"/>
                     <div className={style.skills}>

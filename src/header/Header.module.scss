@@ -1,6 +1,9 @@
 @import "../Common/styles/sass/mixins";
 .header{
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    opacity: 0.6;
     @include flex(row,flex-end, center, nowrap);
     height: 80px;
     background-color: #212529;

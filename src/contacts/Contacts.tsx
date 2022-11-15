@@ -9,7 +9,7 @@ import {Fade} from "react-awesome-reveal";
 const Contacts = () => {
 
     return (
-        <div className={style.contactsBlock}>
+        <div id="contacts" className={style.contactsBlock}>
             <div className={style.container}>
                 <Title titleName="Contacts"/>
                 <Fade direction="right">
