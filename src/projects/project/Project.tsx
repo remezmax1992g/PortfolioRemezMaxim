@@ -4,7 +4,8 @@ import {Button} from "@mui/material";
 
 type ProjectType = {
     title: string
-    description: string
+    descriptionStack: string
+    descriptionApp: string
     style:{
         backgroundImage: string
     }
@@ -19,7 +20,8 @@ const Project = (props: ProjectType) => {
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
-                <span className={style.description}>{props.description}</span>
+                <span className={style.description}><b>Tech Stack: </b>{props.descriptionStack}</span>
+                <span className={style.description}><b>Scratch: </b>{props.descriptionApp}</span>
             </div>
 
         </div>
