@@ -4,70 +4,66 @@
 .mainBlock {
   background-color: #1f1f20;
   padding: 100px 0;
-  .particles {
-    opacity: 0.5;
-  }
+
   .container {
     @include container();
-    @include flex(column, center, center, nowrap);
-    .personalInformation {
-      z-index: 1;
-      width: 100%;
-      @include flex(row, space-between, center, wrap);
-      @media screen and (max-width: 910px) {
-        @include flex(row, space-evenly, center, wrap);
-      }
-      .textAreaBlock {
-        @media screen and (max-width: 915px) {
-          @include flex(column, center, center, nowrap);
+    @include flex(row, space-between, center, wrap);
+    z-index: 1;
+    @media screen and (max-width: 1042px) {
+      @include flex(row, space-evenly, center, wrap);
+    }
+    .textAreaBlock {
+      padding-bottom: 20px;
+      .textArea {
+        @media screen and (max-width: 1050px) {
+         text-align: center;
         }
-        padding: 20px 0;
-        .textArea {
-          @include flex(column, center, start, wrap);
-          @media screen and (max-width: 915px) {
-            @include flex(column, center, center, wrap);
-          }
-          .greetingText {
-            @include text($titleFont, 300, 25px, 1px, 1.3);
-          }
-          .nameText {
-            @include text($titleFont, 500, 50px, 1px, 1.3);
-            padding-bottom: 20px;
-            padding-top: 20px;
-          }
-          .professionText {
-            @include text($titleFont, 400, 30px, 1px, 1.3);
+        .greetingText {
+          @include text($textFont, 300, 25px, 1.4, 3px);
+        }
+
+        .nameText {
+          @include text($titleFont, 500, 50px, 1.4, 3px);
+          span{
+            color: #4e93e6;
           }
         }
 
-        .buttons {
-          width: 100%;
-          padding-top: 10px;
-          @include flex(row, space-between, center, wrap);
+
+        .professionText {
+          @include text($textFont, 400, 27px, 1.4, 3px);
+        }
+      }
+
+      .buttons {
+        width: 100%;
+        padding-top: 10px;
+        @include flex(row, space-between, center, wrap);
+        @media screen and (max-width: 450px) {
+          @include flex(row, center, center, wrap);
+        }
+
+        .button {
+          cursor: pointer;
+          width: 160px;
+          border-radius: 25px;
           @media screen and (max-width: 450px) {
-            @include flex(row, center, center, wrap);
-          }
-          .button{
-            cursor: pointer;
-            width: 160px;
-            border-radius: 25px;
-            @media screen and (max-width: 450px) {
-              margin: 10px 0;
-            }
+            margin: 10px 0;
           }
         }
       }
-      .mainPhoto {
-        width: 45%;
-        height: 45%;
-        @include flex(row, center, center, nowrap);
+    }
 
-        .myPhoto {
-          width: 370px;
-          filter: brightness(70%);
-          @media screen and (max-width: 930px) {
-            width: 250px;
-          }
+    .mainPhoto {
+      @include flex(row, center, center, nowrap);
+      width: 45%;
+      height: 45%;
+
+      .myPhoto {
+        width: 370px;
+        filter: brightness(70%);
+        @media screen and (max-width: 370px) {
+          width: 200px;
         }
       }
     }

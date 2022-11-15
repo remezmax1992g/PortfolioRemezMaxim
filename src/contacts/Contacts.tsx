@@ -13,8 +13,8 @@ const Contacts = () => {
             <div className={style.container}>
                 <Title titleName="Contacts"/>
                 <Fade direction="right">
-                    <div className={style.extraText}>If you have any suggestion, project or even you want to say Hello..
-                    please fill out the form below and I will reply you shortly.</div>
+                    <p className={style.extraText}>If you have any suggestion, project or even you want to say Hello..
+                    please fill out the form below and I will reply you shortly.</p>
                 </Fade>
                 <Fade direction="left">
                     <form className={style.form} onSubmit={sendForm}>
