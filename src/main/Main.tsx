@@ -5,29 +5,9 @@ import {Button} from "@mui/material";
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt'
-import cv from '../Common/assets/images/cv.jpg'
+import {downloadFile} from "../utilits/downloadFile-utilit";
 
 const Main = () => {
-    function downloadFile() {
-        const blob = new Blob([cv], {type: 'image/jpg'});
-        // создать ссылку на файл
-        const downloadUrl = window.URL.createObjectURL(blob);
-
-        // создать тег "ссылка" на наш файл
-        const link = document.createElement('a');
-        link.href = downloadUrl;
-
-        // добавить атрибуты нашему тегу: загрузочный, имя файла
-        link.setAttribute('download', 'new.jpg');
-
-        // добавить тег в документ
-        document.body.appendChild(link);
-
-        // нажать на ссылку
-        link.click();
-
-        link.remove();
-    }
 
     return (
         <div id="main" className={style.mainBlock}>
@@ -41,7 +21,7 @@ const Main = () => {
                         </div>
                         <div className={style.buttons}>
                             <Button className={style.button} variant="contained">MORE ABOUT ME</Button>
-                            <Button className={style.button} variant="contained"><a href={cv} download>download CV</a></Button>
+                            <Button className={style.button} variant="contained" onClick={downloadFile}>download CV</Button>
                         </div>
                     </Fade>
                 </div>
