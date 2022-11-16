@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioRemezMaxim/static/css/main.fa5c7898.css",
-    "main.js": "/PortfolioRemezMaxim/static/js/main.a8769f14.js",
+    "main.js": "/PortfolioRemezMaxim/static/js/main.ccbe65c9.js",
     "static/js/787.bbe0e280.chunk.js": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js",
     "static/media/redux.png": "/PortfolioRemezMaxim/static/media/redux.6e66cd4ff6a497e88bde.png",
     "static/media/instagram.png": "/PortfolioRemezMaxim/static/media/instagram.d93983670e0a3ddee22d.png",
@@ -22,11 +22,11 @@
     "static/media/discord.svg": "/PortfolioRemezMaxim/static/media/discord.61d53db1792b72466025725963a88fbb.svg",
     "index.html": "/PortfolioRemezMaxim/index.html",
     "main.fa5c7898.css.map": "/PortfolioRemezMaxim/static/css/main.fa5c7898.css.map",
-    "main.a8769f14.js.map": "/PortfolioRemezMaxim/static/js/main.a8769f14.js.map",
+    "main.ccbe65c9.js.map": "/PortfolioRemezMaxim/static/js/main.ccbe65c9.js.map",
     "787.bbe0e280.chunk.js.map": "/PortfolioRemezMaxim/static/js/787.bbe0e280.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5c7898.css",
-    "static/js/main.a8769f14.js"
+    "static/js/main.ccbe65c9.js"
   ]
 }
