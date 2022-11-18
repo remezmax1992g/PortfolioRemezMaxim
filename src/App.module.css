@@ -1,3 +1,6 @@
 .particles{
     opacity: 0.4;
 }
+.app{
+    overflow: hidden;
+}

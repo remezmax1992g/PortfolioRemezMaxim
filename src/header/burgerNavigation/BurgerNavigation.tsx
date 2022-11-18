@@ -12,15 +12,15 @@ const BurgerNavigation = () => {
             <div className={style.burgerNav}>
                 <div className={isShow ? `${style.burgerNavItems} ${style.show}` : style.burgerNavItems}>
                     <Link className={style.burgerLink} activeClass={style.active} to="main" spy={true} smooth={true}
-                         offset={30}
+                         offset={1}
                          duration={700}>Main</Link>
                     <Link className={style.burgerLink} activeClass={style.active} to="skills" spy={true} smooth={true}
-                          offset={30}
+                          offset={1}
                           duration={700}>Skills</Link>
                     <Link className={style.burgerLink} activeClass={style.active} to="projects" spy={true} smooth={true}
-                          offset={30} duration={700}>Projects</Link>
+                          offset={1} duration={700}>Projects</Link>
                     <Link className={style.burgerLink} activeClass={style.active} to="contacts" spy={true} smooth={true}
-                          offset={60} duration={700}>Contacts</Link>
+                          offset={1} duration={700}>Contacts</Link>
                 </div>
                 <div className={style.burgerBtn} onClick={onClickModeShow}></div>
             </div>

@@ -21,7 +21,7 @@ function App() {
         await console.log(container);
     }, []);
     return (
-        <div className="App">
+        <div className={style.app}>
             <Header/>
             <Particles className={style.particles}
                        init={particlesInit}
