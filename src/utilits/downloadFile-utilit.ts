@@ -1,5 +1,5 @@
 export const downloadFile = () => {
-    fetch('CVRemezMaxim.pdf')
+    fetch('cv(remez maxim).pdf')
         .then((resp) => {
             resp.blob()
                 .then((resp) => {
@@ -7,7 +7,7 @@ export const downloadFile = () => {
                     fetch(downloadUrl).then((resp) => resp.blob()).then(() => {
                         let aLink = document.createElement('a')
                         aLink.href = downloadUrl
-                        aLink.download = 'CVRemezMaxim.pdf'
+                        aLink.download = 'cv(remez maxim).pdf'
                         aLink.click()
                     })
 

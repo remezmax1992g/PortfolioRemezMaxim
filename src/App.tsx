@@ -4,7 +4,6 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
-import Hiring from "./hiring/Hiring";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 import {Container, Engine} from "tsparticles-engine";
@@ -71,8 +70,8 @@ function App() {
                                    outModes: {
                                        default: "bounce",
                                    },
-                                   random: false,
-                                   speed: 3,
+                                   random: true,
+                                   speed: 2,
                                    straight: false,
                                },
                                number: {
@@ -98,7 +97,6 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
-            <Hiring/>
             <Contacts/>
             <Footer/>
         </div>

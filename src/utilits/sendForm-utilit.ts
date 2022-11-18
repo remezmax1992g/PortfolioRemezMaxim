@@ -11,7 +11,7 @@ const userID = "43lcwkuEhl68Xe99h"
 
 export const sendForm = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log(e.target)
+    console.log(e.currentTarget)
     emailjs.sendForm(serviceID, templateID, e.currentTarget, userID)
         .then((result) => {
             console.log(result.text);
